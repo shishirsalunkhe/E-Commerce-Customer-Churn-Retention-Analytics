@@ -32,5 +32,5 @@ By extracting, cleaning, and querying customer data, this project uncovers criti
 ├── clean_ecommerce_churn.csv        # Processed & Cleaned Data
 ├── churn_analysis.ipynb             # Python Data Cleaning Notebook
 ├── churn_analysis_db.sql            # SQL Database Scripts & Views
-├── churn_analysis_Report.pbix     # Power BI Dashboard File
+├── churn_analysis_Report.pbix       # Power BI Dashboard File
 └── README.md                        # Project Documentation
