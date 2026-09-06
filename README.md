@@ -20,6 +20,12 @@ This project provides an end-to-end data analytics solution to analyze customer 
 
 ---
 
+## 📊 Dashboard Overview
+
+![E-Commerce Churn Analytics Dashboard](Powerbi Dashboard.png )
+
+---
+
 ## 📊 Key Insights & Business Impact
 * **Overall Churn Rate**: **16.84%** across 5,630 customer records.
 * **Primary Churn Driver**: Customers with unresolved **complaints** have a **31.7%** churn rate compared to **10.9%** for non-complainers.
