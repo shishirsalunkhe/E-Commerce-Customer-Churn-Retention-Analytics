@@ -43,14 +43,22 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ---
 
 ## 📂 Repository Structure
+
 ```text
+
 ├── E Commerce Dataset.xlsx          # Raw Dataset
-├── clean_ecommerce_churn.csv        # Processed & Cleaned Dataset
-├── churn_analysis.ipynb             # Data Preprocessing & Cleaning Notebook
-├── churn_analysis_db.sql            # SQL Queries, KPIs, & Database Views
-├── churn_analysis_Report.pbix       # Interactive Power BI Dashboard
+
+├── clean_ecommerce_churn.csv        # Processed Dataset
+
+├── churn_analysis.ipynb             # Data Preprocessing Notebook
+
+├── churn_analysis_db.sql            # SQL Queries & Views
+
+├── churn_analysis_Report.pbix       # Power BI Report File
+
 ├── Powerbi Dashboard.png            # Dashboard Preview Image
-└── README.md                        # Project Documentation
+
+└── README.md                        # Documentation
 
 ---
 
