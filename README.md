@@ -58,3 +58,41 @@ FROM clean_ecommerce_churn
 WHERE Churn = 0 
   AND Complain = 1 
   AND DaySinceLastOrder > 7;
+
+---
+
+## 📂 Repository Structure
+```text
+├── E Commerce Dataset.xlsx          # Raw Dataset
+├── clean_ecommerce_churn.csv        # Processed & Cleaned Dataset
+├── churn_analysis.ipynb             # Data Preprocessing & Cleaning Notebook
+├── churn_analysis_db.sql            # SQL Queries, KPIs, & Database Views
+├── churn_analysis_Report.pbix       # Interactive Power BI Dashboard
+├── Powerbi Dashboard.png            # Dashboard Preview Image
+└── README.md                        # Project Documentation
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
+
+Data Preprocessing:
+Run churn_analysis.ipynb in Jupyter Notebook / VS Code to inspect the cleaning pipeline and output clean_ecommerce_churn.csv.
+
+Run Database Queries:
+Import clean_ecommerce_churn.csv into your SQL database and run churn_analysis_db.sql.
+
+Explore Dashboard:
+Open churn_analysis_Report.pbix in Power BI Desktop.
+
+---
+
+🤝 Author & Contact
+Name: Data Analyst
+
+GitHub: @yourusername
+
+LinkedIn: Your LinkedIn Profile
