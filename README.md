@@ -42,25 +42,6 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ---
 
-## 💻 Sample SQL View (High-Risk Cohort)
-
-```sql
-CREATE OR REPLACE VIEW high_risk_customers AS
-SELECT 
-    CustomerID,
-    Tenure,
-    CityTier,
-    WarehouseToHome,
-    Complain,
-    DaySinceLastOrder,
-    CashbackAmount
-FROM clean_ecommerce_churn
-WHERE Churn = 0 
-  AND Complain = 1 
-  AND DaySinceLastOrder > 7;
-
----
-
 ## 📂 Repository Structure
 ```text
 ├── E Commerce Dataset.xlsx          # Raw Dataset
