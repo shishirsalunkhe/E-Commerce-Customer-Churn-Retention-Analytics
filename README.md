@@ -22,7 +22,7 @@ This project provides an end-to-end data analytics solution to analyze customer 
 
 ## 📊 Dashboard Overview
 
-![E-Commerce Churn Analytics Dashboard](Powerbi Dashboard.png)
+![GUI Output](Output/Powerbi Dashboard.png)
 
 ---
 
