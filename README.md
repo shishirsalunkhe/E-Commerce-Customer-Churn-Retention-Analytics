@@ -1,13 +1,7 @@
-# 🛒 E-Commerce Customer Churn & Retention Analysis
-
-> **A Data-Driven Approach to Analyze Customer Churn, Identify Retention Risks, and Provide Actionable Business Insights using Python, SQL, and Power BI.**
-
----
+# E-Commerce Customer Churn & Retention Analytics
 
 ## 📌 Project Overview
-Customer churn directly impacts revenue growth in the e-commerce sector. This project aims to analyze customer behavioral patterns, identify key risk factors contributing to churn, and deliver actionable insights for customer retention strategies. 
-
-By extracting, cleaning, and querying customer data, this project uncovers critical churn drivers such as **customer tenure, complaint history, shipping distances, and payment methods**.
+This project provides an end-to-end data analytics solution to analyze customer churn for an e-commerce platform. Using Python for data cleaning, SQL for exploratory analysis and segmentation, and Power BI for interactive visualization, this project identifies critical churn drivers and actionable retention strategies.
 
 ---
 
@@ -19,18 +13,29 @@ By extracting, cleaning, and querying customer data, this project uncovers criti
 ---
 
 ## 🛠️ Tech Stack & Tools
-* **Data Preprocessing & Cleaning:** Python (Pandas, NumPy)
-* **Database & Querying:** MySQL / SQL Server (SQL)
-* **Data Visualization & Dashboarding:** Power BI
-* **Documentation:** Jupyter Notebook, Markdown
+* **Python (Pandas, NumPy)**: Data cleaning, missing value imputation, and category standardization.
+* **SQL**: Analytical querying, KPI calculations, risk cohorting, and database views.
+* **Power BI**: Data Visualization & Interactive executive dashboard for retention metrics.
+* **Excel / CSV**: Raw and processed data storage.
 
 ---
+
+## 📊 Key Insights & Business Impact
+* **Overall Churn Rate**: **16.84%** across 5,630 customer records.
+* **Primary Churn Driver**: Customers with unresolved **complaints** have a **31.7%** churn rate compared to **10.9%** for non-complainers.
+* **Customer Tenure:** Customers in their first **0–6 months** have the highest churn rate. Retention stabilizes after 12 months.
+* **High-Risk Segment**: Low tenure + raised complaint + inactive for >7 days (`DaySinceLastOrder > 7`).
+* **Order Behavior:** High shipping distances and specific payment categories correlate strongly with customer drop-offs.
+
+---
+
 
 ## 📂 Repository Structure
 ```text
 ├── E Commerce Dataset.xlsx          # Raw Dataset
-├── clean_ecommerce_churn.csv        # Processed & Cleaned Data
-├── churn_analysis.ipynb             # Python Data Cleaning Notebook
-├── churn_analysis_db.sql            # SQL Database Scripts & Views
-├── churn_analysis_Report.pbix       # Power BI Dashboard File
-└── README.md                        # Project Documentation
+├── clean_ecommerce_churn.csv        # Processed Dataset
+├── churn_analysis.ipynb             # Data Preprocessing Notebook
+├── churn_analysis_db.sql            # SQL Queries & Views
+├── churn_analysis_Report.pbix       # Power BI Report File
+├── Powerbi Dashboard.png            # Dashboard Preview Image
+└── README.md                        # Documentation
