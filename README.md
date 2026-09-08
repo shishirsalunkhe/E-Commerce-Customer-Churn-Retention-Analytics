@@ -16,12 +16,6 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ---
 
-## 📊 Dashboard Preview
-
-![E-Commerce Churn Analytics Dashboard](./Powerbi Dashboard.png)
-
----
-
 ## 🛠️ Tech Stack & Tools
 
 | Tool / Tech | Usage |
@@ -64,6 +58,12 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 * **Target Variable:** Churn (Binary: 1 = Churned, 0 = Retained).
 
 * **Key Features:** Tenure, PreferredLoginDevice, CityTier, WarehouseToHome, PreferredPaymentMode, SatisfactionScore, Complain, DaySinceLastOrder, CashbackAmount.
+
+---
+
+## 📊 Dashboard Preview
+
+![E-Commerce Churn Analytics Dashboard](./Powerbi Dashboard.png)
 
 ---
 
