@@ -107,3 +107,12 @@ Open E_Commerce_Churn_Report.pbix in Power BI Desktop to interact with the visua
 
 ---
 
+## 🤝 Contact & Connect
+* **Author:** Data Analyst
+
+* **LinkedIn:** Your LinkedIn Profile
+
+* **GitHub:** @yourusername
+
+---
+
