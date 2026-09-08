@@ -34,34 +34,34 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ---
 
 ## 🚀 Key Features & Workflow
-Data Cleaning & Standardization:
+* **Data Cleaning & Standardization:**
 
-Cleaned and unified inconsistent categorical values (e.g., merged 'Phone' → 'Mobile Phone', 'CC' → 'Credit Card', 'COD' → 'Cash on Delivery').
+  * Cleaned and unified inconsistent categorical values (e.g., merged 'Phone' → 'Mobile Phone', 'CC' → 'Credit Card', 'COD' → 'Cash on Delivery').
 
-Managed missing values across numeric columns using Median Imputation to preserve distribution integrity.
+  * Managed missing values across numeric columns using Median Imputation to preserve distribution integrity.
 
-Feature Engineering:
+* **Feature Engineering:**
 
-Created custom binning and grouping features for better segmentation:
+  * Created custom binning and grouping features for better segmentation:
 
-Tenure_Group: Segmented customer relationship length (0-6 Months, 6-12 Months, 1-2 Years, 2+ Years).
+    * Tenure_Group: Segmented customer relationship length (0-6 Months, 6-12 Months, 1-2 Years, 2+ Years).
 
-Distance_Group: Classified warehouse proximity (Near (<10km), Medium (10-20km), Far (>20km)).
+    * Distance_Group: Classified warehouse proximity (Near (<10km), Medium (10-20km), Far (>20km)).
 
-Recency_Group: Categorized days since last order (0-3 Days, 4-7 Days, 8-15 Days, 15+ Days).
+    * Recency_Group: Categorized days since last order (0-3 Days, 4-7 Days, 8-15 Days, 15+ Days).
 
-Data Exploration (EDA):
+* **Data Exploration (EDA):**
 
-Evaluated overall customer churn rates and distribution.
+  * Evaluated overall customer churn rates and distribution.
 
-Formatted and exported clean structured data (clean_ecommerce_churn.csv) for analytical visualization and model deployment.
+  * Formatted and exported clean structured data (clean_ecommerce_churn.csv) for analytical visualization and model deployment.
 
-📊 Dataset Summary
-Total Records: 5,630 rows × 20 initial features (expanded to 23 with engineered features).
+## 📊 Dataset Summary
+* **Total Records:** 5,630 rows × 20 initial features (expanded to 23 with engineered features).
 
-Target Variable: Churn (Binary: 1 = Churned, 0 = Retained).
+* **Target Variable:** Churn (Binary: 1 = Churned, 0 = Retained).
 
-Key Features: Tenure, PreferredLoginDevice, CityTier, WarehouseToHome, PreferredPaymentMode, SatisfactionScore, Complain, DaySinceLastOrder, CashbackAmount.
+* **Key Features:** Tenure, PreferredLoginDevice, CityTier, WarehouseToHome, PreferredPaymentMode, SatisfactionScore, Complain, DaySinceLastOrder, CashbackAmount.
 
 ## 📈 Key Insights & Business Impact
 * **Overall Churn Rate:** **16.84%** across 5,630 customer records.
