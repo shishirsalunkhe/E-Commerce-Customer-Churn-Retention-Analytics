@@ -67,8 +67,6 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ---
 
-
-
 ## 📈 Key Insights & Business Impact
 * **Overall Churn Rate:** **16.84%** across 5,630 customer records.
 * **Service Complaints:** Unresolved complaints are the #1 churn driver—customers who registered a complaint showed a **31.7%** churn rate versus **10.9%** for non-complainers.
@@ -89,4 +87,10 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ├── Powerbi Dashboard.png            # Dashboard Preview Image
 └── README.md                        # Documentation
 
+---
+
+## 🚀 How to Run / Reproduce
+Clone the Repository:
+
+---
 
