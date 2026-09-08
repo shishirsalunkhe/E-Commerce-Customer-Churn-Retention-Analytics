@@ -63,7 +63,7 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ## 📊 Dashboard Preview
 
-![E-Commerce Churn Analytics Dashboard](./Powerbi Dashboard.png)
+![E-Commerce Churn Analytics Dashboard](./Powerbi_Dashboard.png)
 
 ---
 
@@ -84,7 +84,7 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ├── churn_analysis.ipynb             # Data Preprocessing Notebook
 ├── churn_analysis_db.sql            # SQL Queries & Views
 ├── churn_analysis_Report.pbix       # Power BI Report File
-├── Powerbi Dashboard.png            # Dashboard Preview Image
+├── Powerbi_Dashboard.png            # Dashboard Preview Image
 └── README.md                        # Documentation
 ```
 
@@ -93,7 +93,7 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ## 🚀 How to Run / Reproduce
 * **Clone the Repository:**
 ```Bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+https://github.com/shishirsalunkhe/E-Commerce-Customer-Churn-Retention-Analytics.git
 ```
 
 * **Run Data Preprocessing:**
