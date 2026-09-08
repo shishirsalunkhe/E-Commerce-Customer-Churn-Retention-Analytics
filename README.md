@@ -55,6 +55,8 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
   * Evaluated overall customer churn rates and distribution.
 
   * Formatted and exported clean structured data (clean_ecommerce_churn.csv) for analytical visualization and model deployment.
+ 
+---
 
 ## 📊 Dataset Summary
 * **Total Records:** 5,630 rows × 20 initial features (expanded to 23 with engineered features).
@@ -62,6 +64,8 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 * **Target Variable:** Churn (Binary: 1 = Churned, 0 = Retained).
 
 * **Key Features:** Tenure, PreferredLoginDevice, CityTier, WarehouseToHome, PreferredPaymentMode, SatisfactionScore, Complain, DaySinceLastOrder, CashbackAmount.
+
+---
 
 ## 📈 Key Insights & Business Impact
 * **Overall Churn Rate:** **16.84%** across 5,630 customer records.
