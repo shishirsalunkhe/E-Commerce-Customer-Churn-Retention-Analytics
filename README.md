@@ -33,7 +33,7 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ---
 
-🚀 Key Features & Workflow
+## 🚀 Key Features & Workflow
 Data Cleaning & Standardization:
 
 Cleaned and unified inconsistent categorical values (e.g., merged 'Phone' → 'Mobile Phone', 'CC' → 'Credit Card', 'COD' → 'Cash on Delivery').
