@@ -91,7 +91,19 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 ---
 
 ## 🚀 How to Run / Reproduce
-Clone the Repository:
+* **Clone the Repository:**
+```Bash
+git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPOSITORY_NAME.git
+```
+
+* **Run Data Preprocessing:**
+Open churn_analysis.ipynb in Jupyter Notebook / VS Code and run all cells to generate clean_ecommerce_churn.csv.
+
+* **Execute Database Scripts:**
+Import clean_ecommerce_churn.csv into your MySQL/SQL database and execute churn_analysis_db.sql.
+
+* **View Power BI Dashboard:**
+Open E_Commerce_Churn_Report.pbix in Power BI Desktop to interact with the visualizations.
 
 ---
 
