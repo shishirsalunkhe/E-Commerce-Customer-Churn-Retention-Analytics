@@ -33,6 +33,36 @@ Customer churn directly impacts revenue growth in the e-commerce sector. This pr
 
 ---
 
+🚀 Key Features & Workflow
+Data Cleaning & Standardization:
+
+Cleaned and unified inconsistent categorical values (e.g., merged 'Phone' → 'Mobile Phone', 'CC' → 'Credit Card', 'COD' → 'Cash on Delivery').
+
+Managed missing values across numeric columns using Median Imputation to preserve distribution integrity.
+
+Feature Engineering:
+
+Created custom binning and grouping features for better segmentation:
+
+Tenure_Group: Segmented customer relationship length (0-6 Months, 6-12 Months, 1-2 Years, 2+ Years).
+
+Distance_Group: Classified warehouse proximity (Near (<10km), Medium (10-20km), Far (>20km)).
+
+Recency_Group: Categorized days since last order (0-3 Days, 4-7 Days, 8-15 Days, 15+ Days).
+
+Data Exploration (EDA):
+
+Evaluated overall customer churn rates and distribution.
+
+Formatted and exported clean structured data (clean_ecommerce_churn.csv) for analytical visualization and model deployment.
+
+📊 Dataset Summary
+Total Records: 5,630 rows × 20 initial features (expanded to 23 with engineered features).
+
+Target Variable: Churn (Binary: 1 = Churned, 0 = Retained).
+
+Key Features: Tenure, PreferredLoginDevice, CityTier, WarehouseToHome, PreferredPaymentMode, SatisfactionScore, Complain, DaySinceLastOrder, CashbackAmount.
+
 ## 📈 Key Insights & Business Impact
 * **Overall Churn Rate:** **16.84%** across 5,630 customer records.
 * **Service Complaints:** Unresolved complaints are the #1 churn driver—customers who registered a complaint showed a **31.7%** churn rate versus **10.9%** for non-complainers.
